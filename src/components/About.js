@@ -1,0 +1,11 @@
+import React from "react";
+
+function About({ about, img = "https://via.placeholder.com/215" }) {
+  return (
+    <aside>
+      <img src={img} alt="blog logo"></img>
+      <p>{about}</p>
+    </aside>
+  );
+}
+export default About;
